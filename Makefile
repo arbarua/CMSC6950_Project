@@ -12,6 +12,7 @@ Acf_activities.pdf: Acf_activities.py Subject_1_data.csv Subject_2_data.csv
 
 report.pdf: TimeComparison.pdf Acf_activities.pdf
 	pdflatex report.tex
+	pdflatex report.tex
 
 clean:
 	rm *.pdf *.csv *.aux *.log
