@@ -20,9 +20,11 @@ tidy_timer = [] #will record the time for tidynamics.correlate() for different d
 np_timer = [] #will record the time for numpy.correlate() for different data size
 sp_timer = [] #will record the time for scipy.signal.correlate() for different data size
 limit_data = [] #will contain sizes of data for each time computation performed
+cc = 0
 #counter = 0 #A counter to limit the task to be perfomed on only six different datas sizes
 while(int(data1.shape[0]/divider)>1): #Continue looping until data size become less than 10 and greater than 1
-    
+    print("Loop ",cc," running")
+    cc+=1
     limit = int(data1.shape[0]/divider) #compute the number of rows to be included in data
     #print(limit)
     #if(counter>5):
