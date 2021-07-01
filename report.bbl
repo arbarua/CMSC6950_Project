@@ -1,0 +1,65 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{deBuy}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6872fe326fa2941ce18e692bf4f899c1}{%
+           family={Buyl},
+           familyi={B\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Open Journal}%
+      }
+      \strng{namehash}{6872fe326fa2941ce18e692bf4f899c1}
+      \strng{fullhash}{6872fe326fa2941ce18e692bf4f899c1}
+      \strng{bibnamehash}{6872fe326fa2941ce18e692bf4f899c1}
+      \strng{authorbibnamehash}{6872fe326fa2941ce18e692bf4f899c1}
+      \strng{authornamehash}{6872fe326fa2941ce18e692bf4f899c1}
+      \strng{authorfullhash}{6872fe326fa2941ce18e692bf4f899c1}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Open Source Software}
+      \field{number}{28}
+      \field{title}{tidynamics: A tiny package to compute the dynamics of stochastic and molecular simulations}
+      \field{volume}{3}
+      \field{year}{2018}
+      \field{pages}{877}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.21105/joss.00877
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.21105/joss.00877
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.21105/joss.00877
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
