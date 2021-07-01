@@ -6,13 +6,13 @@ Working with Package tidynamics. It is a package to calculate cross-correlation,
 It is necessary to have Python and NumPy to install and use tidynamics.
 
 tidynamics can be installed with pip:
-
+```
 pip install --user tidynamics
-
+```
 or with conda (via conda-forge):
-
+```
 conda install -c conda-forge tidynamics
-
+```
 #Extra dependency
 For the tasks performed below, python package pandas and matplotlib is needed.
 
@@ -22,9 +22,9 @@ To install it run the command:
 pip install pandas matplotlib
 ```
 #For conda user
-
+```
 conda install pandas matplotlib
-
+```
 #How to download data and data information:
 
 To download data run the command:
@@ -43,22 +43,22 @@ First the correlation will be performed using the whole columns (348062 rows) an
 
 To perfrom the first task an additional package named scipy needs to be installed. To install it run the following command:
 #for pip user:
-
+```
 pip install scipy
-
+```
 #for conda user:
-
+```
 conda install scipy
-
+```
 In addition package “time” may require to be installed. To install it run:
 #for pip user:
-
+```
 pip install time
-
+```
 #for conda user:
-
+```
 conda install time
-
+```
 #How to see visual result of first taks:
 
 Too see the visual result of the first task run the following command:
