@@ -14,16 +14,16 @@ or with conda (via conda-forge):
 conda install -c conda-forge tidynamics
 
 #Extra dependency
-For the tasks performed below, python package pandas is needed.
+For the tasks performed below, python package pandas and matplotlib is needed.
 
 To install it run the command:
 #For pip user:
-
-pip install pandas
-
+```
+pip install pandas matplotlib
+```
 #For conda user
 
-conda install pandas
+conda install pandas matplotlib
 
 #How to download data and data information:
 
