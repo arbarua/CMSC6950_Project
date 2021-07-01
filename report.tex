@@ -2,6 +2,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage{url}
 \usepackage{graphicx}
+\usepackage[backend=biber,style=numeric]{biblatex}
+\addbibresource{report.bib}
 \begin{document}
    \begin{center}
        \vspace*{1cm}
@@ -17,7 +19,7 @@ Tidynamics is a simple python package which aids the computation of cross-correl
 
 \section{Introduction to Tidynamics}
 
-Tidynnamics is a package which provides an efficient implementation of Fast Correlation Algorithm (FCA). It provides functions to compute Autocorrelation, cross-correlation, mean square displacement and cross displacement. Routines in Tidynamics are bulilt using Numpy Arrays with a simple and user-friendly interface to ease its’ usage. For implementing FCA, Fast Fourier Transform (FFT) was required and for using FFT Numpy module numpy.fft() was used. 
+Tidynnamics is a package which provides an efficient implementation of Fast Correlation Algorithm (FCA) \cite{deBuy}. It provides functions to compute Autocorrelation, cross-correlation, mean square displacement and cross displacement. Routines in Tidynamics are bulilt using Numpy Arrays with a simple and user-friendly interface to ease its’ usage. For implementing FCA, Fast Fourier Transform (FFT) was required and for using FFT Numpy module numpy.fft() was used. 
 The main advantage that the package Tidynamics provide is, it is very easy to install with ony one dependencies of Numpy. There are more packages to perform similar task that Tidynamics performs such as Numpy and Scipy. However, Tidynamics is more efficient in operation in comparison. For example, performing correlation require Numpy to loop over the regarding arrays directly which is not the case for Tidynamics. In terms of Scipy, it requires lots of dependencies if compared with Tidynamics. Moreover, numpy.correlate() and scipy.signal.correlate() differ from tidynamics.correlate() in terms of implementation too. 
 
 \section{Performed Computational Task}
@@ -59,12 +61,6 @@ Figure \ref{fig:mesh2} shows the outcome after performing task. There are total 
 As described, there are 3 subplots for each type of activities where one plot is a scatter plot and it visualizes the autocorrelation of each axis of the tri-axial accelerometer with itself (correlation of x-axis with itself, correlation of y-axis with itself, correlation of y-axis with itself) for different time lags (lag 1 to lag 500). Another plot is there under the plot I just described as a horizontal rectangular plot. This shows the line plot of the raw values of all three accelerometer axes. Finally, the other plot is a bar plot, and it shows the maximum autocorrelation found for each axis.
 
 \vspace{1cm}
-\textbf{Bibliography}
-
-1. https://joss.theoj.org/papers/10.21105/joss.00877
-
-2. https://nwfsc-timeseries.github.io/atsa-labs/sec-tslab-correlation-within-and-among-time-series.html
-
-
+\printbibliography
 \end{document}
 
