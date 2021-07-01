@@ -17,6 +17,6 @@ report.pdf: TimeComparison.pdf Acf_activities.pdf
         pdflatex report.tex
 
 clean:
-	rm *.pdf *.csv *.aux *.log *.blg *.bbl *.bcf *.run.xml
+        rm *.pdf *.csv *.aux *.log *.blg *.bbl *.bcf *.run.xml
 
 .PHONY: clean
