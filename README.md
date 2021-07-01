@@ -80,4 +80,14 @@ Recall that the “Subject_2_data.csv” contains data for a tri-axial accelerom
 There will be total of 6 main subplots and each main subplot will contain 3 subplots. So, we will see 18 plots in total (3 subplots for one activity type).
 
 As described, there will be 3 subplots for each type of activities where one plot will be a scatter plot and it will visualize the autocorrelation of each axis of the tri-axial accelerometer with itself (correlation of x-axis with itself, correlation of y-axis with itself, correlation of y-axis with itself) for different time lags (lag 1 to lag 500). Another horizontal rectangular plot will be there under the plot I just described. This will show the line plot of the raw values of all three accelerometer axes. Finally, the other plot will be a bar plot, and it will show the maximum autocorrelation found for each axis.    
-   
+  
+### Get the work done quickly
+
+type the following command to clean the results:
+```
+make clean
+```
+type the followig command to generate the results in one line:
+```
+make
+``` 
